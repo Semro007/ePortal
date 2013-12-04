@@ -22,6 +22,7 @@
 		493518D1184D3E3D0091867D /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493518D0184D3E3D0091867D /* iPhone.storyboard */; };
 		496CBC4B184FD1E400B32D1F /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBC4A184FD1E400B32D1F /* loginViewController.m */; };
 		496CBC4D184FD36900B32D1F /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBC4C184FD36900B32D1F /* fondo.png */; };
+		496CBC51184FDE3500B32D1F /* calendarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBC50184FDE3400B32D1F /* calendarioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		496CBC49184FD1E400B32D1F /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
 		496CBC4A184FD1E400B32D1F /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 		496CBC4C184FD36900B32D1F /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		496CBC4F184FDE3400B32D1F /* calendarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendarioViewController.h; sourceTree = "<group>"; };
+		496CBC50184FDE3400B32D1F /* calendarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendarioViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 			children = (
 				496CBC4C184FD36900B32D1F /* fondo.png */,
 				496CBC48184FD1AB00B32D1F /* loginViewController */,
+				496CBC4E184FDE1900B32D1F /* calendarioViewController */,
 				493518B0184D3CF40091867D /* AppDelegate.h */,
 				493518B1184D3CF40091867D /* AppDelegate.m */,
 				493518D0184D3E3D0091867D /* iPhone.storyboard */,
@@ -161,6 +165,15 @@
 				496CBC4A184FD1E400B32D1F /* loginViewController.m */,
 			);
 			name = loginViewController;
+			sourceTree = "<group>";
+		};
+		496CBC4E184FDE1900B32D1F /* calendarioViewController */ = {
+			isa = PBXGroup;
+			children = (
+				496CBC4F184FDE3400B32D1F /* calendarioViewController.h */,
+				496CBC50184FDE3400B32D1F /* calendarioViewController.m */,
+			);
+			name = calendarioViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			files = (
 				493518B2184D3CF40091867D /* AppDelegate.m in Sources */,
 				496CBC4B184FD1E400B32D1F /* loginViewController.m in Sources */,
+				496CBC51184FDE3500B32D1F /* calendarioViewController.m in Sources */,
 				493518AE184D3CF40091867D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
