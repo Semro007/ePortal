@@ -20,6 +20,8 @@
 		493518C5184D3CF40091867D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493518C3184D3CF40091867D /* InfoPlist.strings */; };
 		493518C7184D3CF40091867D /* ePortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493518C6184D3CF40091867D /* ePortalTests.m */; };
 		493518D1184D3E3D0091867D /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493518D0184D3E3D0091867D /* iPhone.storyboard */; };
+		496CBC4B184FD1E400B32D1F /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBC4A184FD1E400B32D1F /* loginViewController.m */; };
+		496CBC4D184FD36900B32D1F /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBC4C184FD36900B32D1F /* fondo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		493518C4184D3CF40091867D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		493518C6184D3CF40091867D /* ePortalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ePortalTests.m; sourceTree = "<group>"; };
 		493518D0184D3E3D0091867D /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		496CBC49184FD1E400B32D1F /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		496CBC4A184FD1E400B32D1F /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		496CBC4C184FD36900B32D1F /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,8 @@
 		493518A7184D3CF40091867D /* ePortal */ = {
 			isa = PBXGroup;
 			children = (
+				496CBC4C184FD36900B32D1F /* fondo.png */,
+				496CBC48184FD1AB00B32D1F /* loginViewController */,
 				493518B0184D3CF40091867D /* AppDelegate.h */,
 				493518B1184D3CF40091867D /* AppDelegate.m */,
 				493518D0184D3E3D0091867D /* iPhone.storyboard */,
@@ -145,6 +152,15 @@
 				493518C3184D3CF40091867D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496CBC48184FD1AB00B32D1F /* loginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				496CBC49184FD1E400B32D1F /* loginViewController.h */,
+				496CBC4A184FD1E400B32D1F /* loginViewController.m */,
+			);
+			name = loginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +240,7 @@
 			files = (
 				493518AC184D3CF40091867D /* InfoPlist.strings in Resources */,
 				493518B4184D3CF40091867D /* Images.xcassets in Resources */,
+				496CBC4D184FD36900B32D1F /* fondo.png in Resources */,
 				493518D1184D3E3D0091867D /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493518B2184D3CF40091867D /* AppDelegate.m in Sources */,
+				496CBC4B184FD1E400B32D1F /* loginViewController.m in Sources */,
 				493518AE184D3CF40091867D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +465,7 @@
 				493518CC184D3CF40091867D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493518CD184D3CF40091867D /* Build configuration list for PBXNativeTarget "ePortalTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +474,7 @@
 				493518CF184D3CF40091867D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
