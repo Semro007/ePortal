@@ -1,18 +1,18 @@
 //
-//  loginViewController.m
-//  ePortal
+//  InitViewController.m
+//  SlideMenu
 //
-//  Created by Sergio Martinez Roig on 04/12/13.
-//  Copyright (c) 2013 ToSeWare Ltd. All rights reserved.
+//  Created by Kyle Begeman on 1/13/13.
+//  Copyright (c) 2013 Indee Box LLC. All rights reserved.
 //
 
-#import "loginViewController.h"
+#import "InitViewController.h"
 
-@interface loginViewController ()
+@interface InitViewController ()
 
 @end
 
-@implementation loginViewController
+@implementation InitViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +27,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Main"];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,8 +38,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)loginButton:(UIButton *)sender {
-    // TODO - Aquí hay que poner la lógica del login, antes de hacer el performSegueWithIdentifier.
-    [self performSegueWithIdentifier:@"initSegue" sender:self];
-}
 @end

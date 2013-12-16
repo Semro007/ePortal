@@ -20,6 +20,12 @@
 		493518C5184D3CF40091867D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493518C3184D3CF40091867D /* InfoPlist.strings */; };
 		493518C7184D3CF40091867D /* ePortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493518C6184D3CF40091867D /* ePortalTests.m */; };
 		493518D1184D3E3D0091867D /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493518D0184D3E3D0091867D /* iPhone.storyboard */; };
+		49668F49185FB3D700EBBF2F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49668F46185FB3D700EBBF2F /* ECSlidingViewController.m */; };
+		49668F4A185FB3D700EBBF2F /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49668F48185FB3D700EBBF2F /* UIImage+ImageWithUIView.m */; };
+		49668F4E185FB8FC00EBBF2F /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49668F4D185FB8FC00EBBF2F /* InitViewController.m */; };
+		49668F52185FBFA700EBBF2F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49668F51185FBFA700EBBF2F /* MainViewController.m */; };
+		49668F56185FBFCD00EBBF2F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49668F55185FBFCD00EBBF2F /* MenuViewController.m */; };
+		49668F59185FC0C000EBBF2F /* menuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49668F58185FC0C000EBBF2F /* menuButton@2x.png */; };
 		496CBC4B184FD1E400B32D1F /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBC4A184FD1E400B32D1F /* loginViewController.m */; };
 		496CBC4D184FD36900B32D1F /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBC4C184FD36900B32D1F /* fondo.png */; };
 		496CBC51184FDE3500B32D1F /* calendarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBC50184FDE3400B32D1F /* calendarioViewController.m */; };
@@ -53,6 +59,17 @@
 		493518C4184D3CF40091867D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		493518C6184D3CF40091867D /* ePortalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ePortalTests.m; sourceTree = "<group>"; };
 		493518D0184D3E3D0091867D /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		49668F45185FB3D700EBBF2F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		49668F46185FB3D700EBBF2F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		49668F47185FB3D700EBBF2F /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		49668F48185FB3D700EBBF2F /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		49668F4C185FB8FC00EBBF2F /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
+		49668F4D185FB8FC00EBBF2F /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		49668F50185FBFA700EBBF2F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49668F51185FBFA700EBBF2F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49668F54185FBFCD00EBBF2F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		49668F55185FBFCD00EBBF2F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		49668F58185FC0C000EBBF2F /* menuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuButton@2x.png"; sourceTree = "<group>"; };
 		496CBC49184FD1E400B32D1F /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
 		496CBC4A184FD1E400B32D1F /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 		496CBC4C184FD36900B32D1F /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
@@ -118,7 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				496CBC4C184FD36900B32D1F /* fondo.png */,
+				49668F58185FC0C000EBBF2F /* menuButton@2x.png */,
+				49668F4F185FB90600EBBF2F /* InitViewController */,
+				49668F4B185FB3DF00EBBF2F /* ECSlidingViewController */,
 				496CBC48184FD1AB00B32D1F /* loginViewController */,
+				49668F57185FBFD300EBBF2F /* MenuViewController */,
+				49668F53185FBFAF00EBBF2F /* MainViewController */,
 				496CBC4E184FDE1900B32D1F /* calendarioViewController */,
 				493518B0184D3CF40091867D /* AppDelegate.h */,
 				493518B1184D3CF40091867D /* AppDelegate.m */,
@@ -156,6 +178,44 @@
 				493518C3184D3CF40091867D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49668F4B185FB3DF00EBBF2F /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49668F45185FB3D700EBBF2F /* ECSlidingViewController.h */,
+				49668F46185FB3D700EBBF2F /* ECSlidingViewController.m */,
+				49668F47185FB3D700EBBF2F /* UIImage+ImageWithUIView.h */,
+				49668F48185FB3D700EBBF2F /* UIImage+ImageWithUIView.m */,
+			);
+			name = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		49668F4F185FB90600EBBF2F /* InitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49668F4C185FB8FC00EBBF2F /* InitViewController.h */,
+				49668F4D185FB8FC00EBBF2F /* InitViewController.m */,
+			);
+			name = InitViewController;
+			sourceTree = "<group>";
+		};
+		49668F53185FBFAF00EBBF2F /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49668F50185FBFA700EBBF2F /* MainViewController.h */,
+				49668F51185FBFA700EBBF2F /* MainViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		49668F57185FBFD300EBBF2F /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49668F54185FBFCD00EBBF2F /* MenuViewController.h */,
+				49668F55185FBFCD00EBBF2F /* MenuViewController.m */,
+			);
+			name = MenuViewController;
 			sourceTree = "<group>";
 		};
 		496CBC48184FD1AB00B32D1F /* loginViewController */ = {
@@ -255,6 +315,7 @@
 				493518B4184D3CF40091867D /* Images.xcassets in Resources */,
 				496CBC4D184FD36900B32D1F /* fondo.png in Resources */,
 				493518D1184D3E3D0091867D /* iPhone.storyboard in Resources */,
+				49668F59185FC0C000EBBF2F /* menuButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				493518B2184D3CF40091867D /* AppDelegate.m in Sources */,
+				49668F56185FBFCD00EBBF2F /* MenuViewController.m in Sources */,
+				49668F4E185FB8FC00EBBF2F /* InitViewController.m in Sources */,
 				496CBC4B184FD1E400B32D1F /* loginViewController.m in Sources */,
+				49668F52185FBFA700EBBF2F /* MainViewController.m in Sources */,
 				496CBC51184FDE3500B32D1F /* calendarioViewController.m in Sources */,
 				493518AE184D3CF40091867D /* main.m in Sources */,
+				49668F49185FB3D700EBBF2F /* ECSlidingViewController.m in Sources */,
+				49668F4A185FB3D700EBBF2F /* UIImage+ImageWithUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
